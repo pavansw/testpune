@@ -9,9 +9,10 @@ node
     }
     stage('Shell Script')
     {
-        sh '''hostname
-              date
-            '''
+        sh '''#!/bin/bash
+hostname
+date
+'''
     }
     stage('Delivery')
     {
