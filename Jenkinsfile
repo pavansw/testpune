@@ -10,8 +10,7 @@ node
     stage('Shell Script')
     {
         sh '''#!/bin/bash
-hostname
-date
+hostname;date
 '''
     }
     stage('Delivery')
